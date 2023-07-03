@@ -1,0 +1,267 @@
+button {
+    background-color: transparent;
+    border: 0px;
+    margin: 0px;
+    padding: 0px;
+}
+
+html, body{
+    margin: 0px;
+    padding: 0px;
+}
+
+nav{    
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+
+nav div{
+    display: inline-block;
+    display: flex;
+    justify-content: space-between;
+}
+
+.login{
+    border-radius: 50%;
+    width: 34px;
+    height: 34px;
+    padding: 0px 10px 0px 10px;
+}
+
+.bell, .video, .search, .menu{
+    width: 24px;
+    height: 24px;
+    padding: 0px 10px 0px 10px;
+}
+
+.logo{
+    width: 90px;
+    height: 20px;
+    padding: 0px 10px 0px 10px;
+}
+
+input[type=text] {
+    padding: 14px 110px;
+    margin: 0px 0px 3.5px 0px;
+    border: 1px solid #CCCCCC;
+  }
+
+form{
+    margin: 0px;
+    display: flex;
+    gap: 0px;
+  }
+
+.p2{  
+    margin: 0px;
+    padding: 0px;
+}
+
+.search{
+    background-color: #F8F8F8;
+    padding: 10px 18px;
+    border: 1px solid #CCCCCC;
+    border-left: 0px;
+}
+
+.p3{
+    margin-right: 20px;
+}
+
+.p1{
+    margin-left: 20px;
+}
+
+#conteudo{
+    background-color: #F9F9F9;
+    height: auto;
+    display: flex;
+}
+
+.conteudo-principal{
+    padding: 24px;
+    margin-left: 100px;
+}
+
+.conteudo-lateral{
+    padding: 24px;
+}
+
+#iframe-video{
+    
+}
+
+h2{
+    font-family: Roboto, sans-serif;
+    font-weight: 600;
+    size: 20px;
+}
+
+#interacao{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.teste{
+    margin-bottom: 10px;
+}
+
+.side_recomendação{
+    display: flex;
+    width: 360px;
+    margin-bottom: 15px;
+}
+
+.thumb_dados{
+    display: block;
+    margin-left: 16px;
+}
+
+.dados_titulo{
+
+}
+
+h5{
+    font-family: Roboto, sans-serif;
+    margin: 0px;
+    font-size: 14px;
+    font-weight: 600;  
+    color: black; 
+    width: 193px;
+}
+
+p{
+    font-size: 12px;
+    font-weight: 400;
+    font-family: Roboto, sans-serif;
+    margin-top: 8px;
+    margin-bottom: 0px;
+    color: #515151;
+    width: 150px;
+}
+
+.img_canal{
+    border-radius: 50%;
+    width: 34px;
+    height: 34px;
+    padding: 0px;
+}
+
+#canal_dados{
+    display: block;
+    margin-left: 12px;
+}
+
+#canal_dados > p{
+    margin-top: 4px;
+}
+
+.canal_perfil{
+    display: flex;
+}
+
+#inscrever{
+    background-color: #CC0000;
+    color: white;
+    padding: 15px 60px;
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.descricao{
+    width: 800px;
+    font-size: 12px;
+    font-weight: 400;
+    font-family: Roboto, sans-serif;
+    margin-top: 8px;
+    margin-bottom: 0px;
+    color: #515151;
+}
+
+.conteudo-principal > .descricao{
+    font-size: 15px;
+    font-weight: 400;
+    margin-top: 14px;
+}
+
+h4{
+    font-family: Roboto, sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    margin-top: 14px;
+}
+
+.container{
+    display: flex;
+}
+
+.side_bar{
+    width: 8%;
+    display: block;
+    padding: 20px;
+}
+
+.content{
+    width: 92%;
+    background-color: #F9F9F9;
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    padding: 50px;
+    justify-items: center;
+}
+
+.icon_side_bar{
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 22px;
+}
+
+.icon_side_bar > p{
+    size: 14px;
+    font-weight: 700;
+    font-family: Roboto, sans-serif;
+}
+
+.icon{
+    width: 24px;
+    height: 24px;
+}
+
+.text_side_bar{
+    margin: 0px;
+    display: flex;
+    align-items: center;
+}
+
+.unit_video{
+    display: block;
+    width: 300px;
+    margin-bottom: 40px;
+}
+
+.descricao{
+    display: flex;
+    gap: 15px;
+}
+
+.descricao_text{
+    display: block;
+}
+
+.canal_logo{
+    width: 42px;
+    height: 42px;
+}
+
+.img_video{
+    width: 250px;
+    height: 140px;
+}
